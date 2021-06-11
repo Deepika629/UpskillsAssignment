@@ -1,0 +1,409 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Navigate to Registration page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9414417400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on upskills Home Page",
+            "match": {
+              "location": "StepsA1.user_is_on_upskills_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11263051300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Sign Up link",
+            "match": {
+              "location": "StepsA1.user_click_on_Sign_Up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14760700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Registration Page should display",
+            "match": {
+              "location": "StepsA1.registration_Page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4451737700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverAct.driverInitialization()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Register a new user and send a message",
+        "description": "",
+        "id": "register-and-send-message-functionality;register-a-new-user-and-send-a-message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 939408300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverAct.driverClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 103900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects course type",
+            "match": {
+              "location": "StepsA1.user_selects_course_type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 342687300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter firstname \"Deepika\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deepika",
+                  "offset": 22
+                }
+              ],
+              "location": "StepsA1.user_enter_firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222792400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter lastname \"Mittal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mittal",
+                  "offset": 21
+                }
+              ],
+              "location": "StepsA1.user_enter_lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176569500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter emailid \"dee@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dee@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "StepsA1.user_enter_emailid(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128038400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter username \"DRM2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DRM2",
+                  "offset": 21
+                }
+              ],
+              "location": "StepsA1.user_enter_username(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160300000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter password \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 21
+                }
+              ],
+              "location": "StepsA1.user_enter_password(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244944600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter confirm password \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 29
+                }
+              ],
+              "location": "StepsA1.user_enter_confirm_password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2309282600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "StepsA1.user_clicks_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify the Registration confirmation message and firstname \"Deepika\" and lastname \"Mittal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deepika",
+                  "offset": 60
+                },
+                {
+                  "val": "Mittal",
+                  "offset": 83
+                }
+              ],
+              "location": "StepsA1.verify_the_Registration_confirmation_message_and_firstname_and_lastname(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 269728700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Open the profile dropdown",
+            "match": {
+              "location": "StepsA1.open_the_profile_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119437700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate the email \"dee@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dee@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "StepsA1.validate_the_email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3287398500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Inbox link",
+            "match": {
+              "location": "StepsA1.user_click_on_Inbox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3277008400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on Compose message icon",
+            "match": {
+              "location": "StepsA1.user_click_on_Compose_message_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5528474900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters Send to email \"DM12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DM12",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsA1.user_enters_Send_to_email(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233126200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters Subject \"testmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testmail",
+                  "offset": 21
+                }
+              ],
+              "location": "StepsA1.user_enters_Subject(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483530600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters Message to be sent \"This is a test mail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is a test mail",
+                  "offset": 32
+                }
+              ],
+              "location": "StepsA1.user_enters_Message_to_be_sent(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2196426900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on Send message button",
+            "match": {
+              "location": "StepsA1.user_clicks_on_Send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179682300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Message sent and verify the acknowledgement",
+            "match": {
+              "location": "StepsA1.message_sent_and_verify_the_acknowledgement()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register and send message functionality",
+    "description": "",
+    "id": "register-and-send-message-functionality",
+    "keyword": "Feature",
+    "uri": "A1.feature"
+  }
+]

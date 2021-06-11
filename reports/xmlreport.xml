@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="45.303909">
+<testcase classname="Register and send message functionality" name="Register a new user and send a message" time="45.303909">
+<system-out><![CDATA[Given User is on upskills Home Page.........................................passed
+When User click on Sign Up link.............................................passed
+Then Registration Page should display.......................................passed
+When User selects course type...............................................passed
+And User enter firstname "Deepika"..........................................passed
+And User enter lastname "Mittal"............................................passed
+And User enter emailid "dee@gmail.com"......................................passed
+And User enter username "DRM2"..............................................passed
+And User enter password "Password"..........................................passed
+And User enter confirm password "Password"..................................passed
+And User clicks on Register button..........................................passed
+Then verify the Registration confirmation message and firstname "Deepika" and lastname "Mittal".passed
+And Open the profile dropdown...............................................passed
+And Validate the email "dee@gmail.com"......................................passed
+And User click on Inbox link................................................passed
+And User click on Compose message icon......................................passed
+And User enters Send to email "DM12"........................................passed
+And user enters Subject "testmail"..........................................passed
+And user enters Message to be sent "This is a test mail"....................passed
+And User clicks on Send message button......................................passed
+And Message sent and verify the acknowledgement.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
